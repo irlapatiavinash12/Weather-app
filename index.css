@@ -1,0 +1,155 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.main-container{
+    margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(111, 111, 193);
+}
+
+.nav-styling{
+    background-color: rgba(48, 48, 238, 0.702);
+    text-align: center;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.lower-contaioner{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width:728px){
+    .lower-contaioner{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+}
+
+.details-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-styling{
+    height: 40px;
+    border-radius: 4px;
+    color: #000000;
+    padding-left: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.city-name-styling{
+    color: #000000;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.search-button-styling{
+    background-color:  rgba(48, 48, 238, 0.702);
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.current-location-button{
+    background-color:  rgb(93, 93, 103);
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.line-container{
+    display: flex;
+    color: #ffffff;
+}
+
+hr{
+    border:  rgb(213, 213, 223);
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+
+.weather-data-container{
+    width:65%;
+    margin-left: 10px;
+}
+
+.city-details-container{
+    background-color: rgba(48, 48, 238, 0.702);
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.city-heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-heading{
+    font-size: 22px;
+    font-family: "Bree Serif";
+    font-weight: 700;
+}
+
+
+.forecast-heading-element{
+    color: #000000;
+    font-family: "Bree Serif";
+    font-weight: 600;
+}
+
+
+.forecast-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eachdayForecast{
+    background-color: grey;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 20px;
+    width: 24%;
+    margin: 10px;
+}
+
+
+.error-message{
+    color: rgba(243, 6, 6, 0.812);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
