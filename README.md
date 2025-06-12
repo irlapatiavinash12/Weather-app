@@ -2,7 +2,7 @@
 
 A responsive Weather Dashboard that allows users to search for any city and view the **current weather conditions** along with a **5-day forecast** using the OpenWeatherMap API.
 
-![Weather App Preview]([preview.png](https://res.cloudinary.com/dvptfc0ji/image/upload/v1749704529/Screenshot_2025-06-12_103128_vgvka1.png))
+![Weather App Preview](https://res.cloudinary.com/dvptfc0ji/image/upload/v1749704529/Screenshot_2025-06-12_103128_vgvka1.png)
 
 ## Features
 
